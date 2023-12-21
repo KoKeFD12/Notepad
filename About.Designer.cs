@@ -39,7 +39,7 @@
             // 
             // tintProdLogo
             // 
-            this.tintProdLogo.Image = ((System.Drawing.Image)(resources.GetObject("tintProdLogo.Image")));
+            this.tintProdLogo.Image = global::Notepad.Properties.Resources.TintProductionsLogoTransparentBlack;
             this.tintProdLogo.InitialImage = ((System.Drawing.Image)(resources.GetObject("tintProdLogo.InitialImage")));
             this.tintProdLogo.Location = new System.Drawing.Point(331, 57);
             this.tintProdLogo.Name = "tintProdLogo";
@@ -72,9 +72,9 @@
             // 
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox1.Enabled = false;
-            this.textBox1.Location = new System.Drawing.Point(269, 169);
+            this.textBox1.Location = new System.Drawing.Point(286, 167);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 13);
+            this.textBox1.Size = new System.Drawing.Size(80, 13);
             this.textBox1.TabIndex = 5;
             this.textBox1.Text = "Developed by:";
             // 
