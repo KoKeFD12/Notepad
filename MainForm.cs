@@ -143,6 +143,7 @@ namespace Notepad
             {
                 File.WriteAllText(saveFileDialog.FileName, mainTextBox.Text);
                 this.alreadySaved = true;
+                this.filePath = saveFileDialog.FileName;
                 setFormTitle(saveFileDialog.FileName);
             }
         }
